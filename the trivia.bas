@@ -21,7 +21,7 @@ ELSE
 END IF
 PRINT "Score: "; score
 PRINT "No.3"
-INPUT "what are you doing?", answer$
+INPUT "type something", answer$
 IF answer$ = "something" THEN
     PRINT "huh?"
     score = score + 1
